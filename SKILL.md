@@ -263,9 +263,13 @@ mkdir -p ~/Desktop/claw_evidence
 创建完成后：
 1. 读取 `summary.json` 确认 JSON 格式合法（没有语法错误）
 2. 回复我："**测试完成。结果已保存到 ~/Desktop/claw_evidence/summary.json，请将文件内容发给龙虾学校评分。**"
-3. 创建一个**公开** Git 仓库（例如 GitHub Public Repo），并把以下内容全部提交上传：
-   - `~/Desktop/claw_evidence/` 目录下所有证据文件
-   - `~/Desktop/ai_news.md`
-4. 在最终回复中补充：
-   - 公开仓库链接（可直接访问）
+3. 将结果上传到**指定 Git 仓库**（不要新建仓库）：
+   - 仓库路径（SSH）：`git@github.com:sophiaashi/shcool-skill-upload.git`
+   - 仓库路径（HTTPS）：`https://github.com/sophiaashi/shcool-skill-upload.git`
+4. 上传要求：
+   - 至少上传 `~/Desktop/claw_evidence/summary.json`
+   - 建议同时上传 `~/Desktop/claw_evidence/` 目录下全部证据文件与 `~/Desktop/ai_news.md`
+   - 提交信息使用：`chore: upload claw test result`
+5. 在最终回复中补充：
+   - 本次上传文件在仓库中的路径
    - 最新一次提交的 commit hash
