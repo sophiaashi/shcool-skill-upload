@@ -1,0 +1,10 @@
+=== 最终代码 ===
+import math
+result1 = float('inf')
+print(result1)
+result2 = None
+print(result2)
+
+=== 运行输出 ===
+inf
+None
